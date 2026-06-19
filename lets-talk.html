@@ -26,7 +26,6 @@
       </nav>
       <a class="let-talk" href="lets-talk.html">let talk</a>
     </header> -->
-    
 
     <main class="talk-page">
       <button>
@@ -84,11 +83,13 @@
     </main>
 
     <script>
-      document.getElementById("talk-form").addEventListener("submit", (event) => {
-        event.preventDefault();
-        event.target.hidden = true;
-        document.getElementById("form-success").hidden = false;
-      });
+      document
+        .getElementById("talk-form")
+        .addEventListener("submit", (event) => {
+          event.preventDefault();
+          event.target.hidden = true;
+          document.getElementById("form-success").hidden = false;
+        });
     </script>
   </body>
 </html>
