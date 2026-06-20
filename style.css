@@ -52,14 +52,13 @@ body {
   font-size: 10px;
 }
 
-
 #contact {
   color: white;
   gap: 30px;
   size: 80px;
   font-size: 20px;
   border: 5px solid blue;
-  background-color: blue ;
+  background-color: blue;
   border-radius: 10px;
 }
 #portfolio {
@@ -117,40 +116,60 @@ body {
 }
 
 .upper {
-   background-color: white;
+  background-color: white;
   display: flex;
   list-style-type: none;
   justify-content: space-between;
   align-items: justify-between;
-  font-family:'Times New Roman', Times, serif;
-
+  font-family: "Times New Roman", Times, serif;
 }
 
 .upper-2 {
   color: black;
   font-size: 15px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .upper-3 {
   color: blue;
   font-size: 60px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 0%;
-  
 }
 .upper-4 {
   color: blue;
   font-size: 60px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 0%;
-  
 }
 .upper-5 {
-  color:black;
+  color: black;
   font-size: 15px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
+.upper-6 {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 20px;
+}
 
-
+.upper-6 .button {
+  background-color: rgb(63, 10, 255);
+  border: 1px solid rgb(0, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+}
+.upper-7 {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 20px;
+}
+.upper-7 .button {
+  background-color: rgb(255, 67, 10);
+  border: 1px solid rgb(255, 0, 132);
+  padding: 10px;
+  border-radius: 10px;
+}
