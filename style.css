@@ -115,9 +115,32 @@ body {
   gap: 5px;
 }
 
-#upper {
+.upper {
+   background-color: white;
   display: flex;
-  grid-row: 1/2;
-  grid-column: 1/3;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: justify-between;
+  font-family:'Times New Roman', Times, serif
+
+}
+
+.upper-2 {
+  color: black;
+  font-size: 15px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.upper-3 {
+  color: blue;
+  font-size: 60px;
+  font-family:'Times New Roman', Times, serif
   
 }
+.upper-4 {
+  color: blue;
+  font-size: 60px;
+  font-family:'Times New Roman', Times, serif
+  
+}
+
