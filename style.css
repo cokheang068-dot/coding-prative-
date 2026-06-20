@@ -114,3 +114,10 @@ body {
   font-size: 10px;
   gap: 5px;
 }
+
+#upper {
+  display: flex;
+  grid-row: 1/2;
+  grid-column: 1/3;
+  
+}
