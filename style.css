@@ -155,21 +155,21 @@ body {
   gap: 20px;
 }
 
-.upper-6 .button {
+.upper-6 .btn-contact {
   background-color: rgb(63, 10, 255);
   border: 1px solid rgb(0, 255, 255);
   padding: 10px;
   border-radius: 10px;
+  space-between: 20px;
 }
-.upper-7 {
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
-  gap: 20px;
-}
-.upper-7 .button {
+.upper-6 .btn-profile {
   background-color: rgb(255, 67, 10);
   border: 1px solid rgb(255, 0, 132);
   padding: 10px;
   border-radius: 10px;
+  space-between: 20px;
 }
+
+
+
+
