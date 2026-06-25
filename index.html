@@ -1,78 +1,109 @@
-<html lang="en-us-kh">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="UTF8" />
-    <tittle>My First web page</tittle>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI/UX Designer Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header class="header">
-      <img
-        src="./asset/download.jpg"
-        alt="jinomoto piseyrio"
-        height="30"
-        width="30"
-      />
-
-      <ul>
-        <li>service</li>
-        <li>portfioloio</li>
-        <li>About us</li>
-        <li>Blog</li>
-        <li>Contact us</li>
-      </ul>
-
-      <button type="button"><a href="lets-talk.html">let talk</a></button>
-    </header>
-    <main>
-      <nav class="upper">
-        <nav>
-          <h2 class="upper-2">Hi i am</h2>
-          <h1 class="upper-3">UI and UX</h1>
-          <h1 class="upper-4">Designer</h1>
-          <p class="upper-5">
-            with a passion for cleean,intutive, and efffective design, I creat <br>y
-            digital products that enhacne user engaaement Delivering aesethtic
-            and interative design that make a lasting impact
-          </p>
-          <nav class="upper-6">
-            <button class="btn-contact">Contact Us</button>
-            <button class="btn-profile">Profile</button>
-          </nav>
-        </nav>
-        <nav>
-          <img src="./asset/py.jpg" alt="py" height="500" width="500" />
-        </nav>
+      <a class="logo" href="index.html">
+        <img src="./asset/download.jpg" alt="Designer logo" width="40" height="40" />
+        <span>Jinomoto Piseyrio</span>
+      </a>
+      <nav class="nav-menu">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="read-more.html">Read more</a>
+        <a class="btn-link" href="lets-talk.html">Let's talk</a>
       </nav>
-    </main>
-    <h1 id="AM">About me</h1>
-    <p>
-      passionate UI/UX deesigner with a creative Aprrouch to cafting intutive
-      and engaging User Experience
-    </p>
-    <h2 id="uud">ui/ux</h2>
-    <p>
-      User-centered design that are visually engaging and funtionally
-      seamless.My approach <a href="read-more.html">read more</a>
-    </p>
+    </header>
 
-    <h2 id="wbd">website Design</h2>
-    <h2 id="AD">App Design</h2>
-    <h2 id="GD">Grapic Design</h2>
-    <h1 id="MDS">My Design Service</h1>
-    <p id="service-intro">
-      crafting visually engaging interfaces that are both effective and
-      user-centered, crafting a seamless experience.
-    </p>
-    <h1>My portfolio</h1>
-    <p>
-      explore a collection of my UI/UX design projeects, each crafted to deliver
-      seamless, user-centered experiences..
-    </p>
-    <h2>All</h2>
-    <h2>UI/UX</h2>
-    <h2>Website Design</h2>
-    <h2>App Design</h2>
-    <h2>Grapic Design</h2>
+    <main class="page-content">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="hero-label">Hi, I am</p>
+          <h1>UI & UX Designer</h1>
+          <p class="hero-text">
+            I create clean, intuitive, and effective digital products that enhance user engagement and build delightful experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="lets-talk.html">Contact Me</a>
+            <a class="btn btn-secondary" href="read-more.html">View Profile</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./asset/py.jpg" alt="Designer working on a project" />
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="section-content">
+          <h2>About me</h2>
+          <p>
+            Passionate UI/UX designer with a creative approach to crafting intuitive, engaging experiences that feel effortless on web and mobile.
+          </p>
+          <div class="about-grid">
+            <div class="about-card">
+              <strong>Specialty</strong>
+              <span>UI/UX Design</span>
+            </div>
+            <div class="about-card">
+              <strong>Services</strong>
+              <span>Web, Mobile, Branding</span>
+            </div>
+            <div class="about-card">
+              <strong>Impact</strong>
+              <span>Modern & user-focused</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="./asset/ajing.png" alt="Designer portrait" />
+        </div>
+      </section>
+
+      <section id="services" class="section services-section">
+        <h2>My Design Service</h2>
+        <p class="section-intro">
+          Crafting visually engaging interfaces that are both effective and user-centered for digital products that feel polished and seamless.
+        </p>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Website Design</h3>
+            <p>Responsive and elegant website layouts that reflect your brand and improve usability.</p>
+          </article>
+          <article class="service-card">
+            <h3>App Design</h3>
+            <p>Interactive mobile experiences designed to feel natural and visually consistent.</p>
+          </article>
+          <article class="service-card">
+            <h3>Graphic Design</h3>
+            <p>Brand visuals, campaign assets, and UI elements crafted with a strong design sense.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section portfolio-section">
+        <h2>My portfolio</h2>
+        <p>
+          Explore a collection of UI/UX design projects created to deliver seamless, user-centered experiences.
+        </p>
+        <div class="portfolio-tags">
+          <span class="tag active">All</span>
+          <span class="tag">UI/UX</span>
+          <span class="tag">Website</span>
+          <span class="tag">App</span>
+          <span class="tag">Graphic</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Jinomoto Piseyrio · UI/UX Designer</p>
+    </footer>
   </body>
 </html>

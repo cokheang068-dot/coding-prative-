@@ -1,42 +1,32 @@
-<html lang="en-us-kh">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="UTF8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Let's Talk</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <!-- <header class="header">
-      <a href="index.html">
-        <img
-          src="./asset/download.jpg"
-          alt="jinomoto piseyrio"
-          height="30"
-          width="30"
-        />
+    <header class="header">
+      <a class="logo" href="index.html">
+        <img src="./asset/download.jpg" alt="Designer logo" width="40" height="40" />
+        <span>Jinomoto Piseyrio</span>
       </a>
-      <nav>
-        <ul>
-          <li><a href="index.html#service">service</a></li>
-          <li><a href="index.html#portfolio">portfioloio</a></li>
-          <li><a href="index.html#about">About us</a></li>
-          <li><a href="index.html#blog">Blog</a></li>
-          <li><a href="lets-talk.html">Contact us</a></li>
-        </ul>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="read-more.html">Read more</a>
+        <a href="#talk-form">Contact</a>
       </nav>
-      <a class="let-talk" href="lets-talk.html">let talk</a>
-    </header> -->
+    </header>
 
     <main class="talk-page">
-      <button>
-        <a href="index.html">Home</a>
-      </button>
-
-      <h1>Let's Talk</h1>
-      <p class="talk-intro">
-        Tell me about your project. Fill out the form below and I'll get back to
-        you soon.
-      </p>
+      <section class="talk-intro-section">
+        <h1>Let's Talk</h1>
+        <p>
+          Tell me about your project. Fill out the form below and I'll get back to you soon.
+        </p>
+      </section>
 
       <form class="talk-form" id="talk-form">
         <label>
@@ -46,32 +36,17 @@
 
         <label>
           Email
-          <input
-            type="email"
-            name="email"
-            placeholder="you@example.com"
-            required
-          />
+          <input type="email" name="email" placeholder="you@example.com" required />
         </label>
 
         <label>
           Subject
-          <input
-            type="text"
-            name="subject"
-            placeholder="What would you like to discuss?"
-            required
-          />
+          <input type="text" name="subject" placeholder="What would you like to discuss?" required />
         </label>
 
         <label>
           Message
-          <textarea
-            name="message"
-            rows="6"
-            placeholder="Share a few details about your project..."
-            required
-          ></textarea>
+          <textarea name="message" rows="6" placeholder="Share a few details about your project..." required></textarea>
         </label>
 
         <button type="submit">Send message</button>
@@ -83,13 +58,11 @@
     </main>
 
     <script>
-      document
-        .getElementById("talk-form")
-        .addEventListener("submit", (event) => {
-          event.preventDefault();
-          event.target.hidden = true;
-          document.getElementById("form-success").hidden = false;
-        });
+      document.getElementById("talk-form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        event.target.hidden = true;
+        document.getElementById("form-success").hidden = false;
+      });
     </script>
   </body>
 </html>
